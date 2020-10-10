@@ -1,0 +1,32 @@
+.the-list {
+    padding-left: 80px;
+    text-align: left;
+
+}
+
+.the-list li {
+    position: relative;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    color: rgb(216, 79, 125);
+    font-weight: bold;
+}
+
+.the-list li:hover {
+    background-color:  rgb(209, 135, 160) ;
+    cursor: pointer;
+}
+
+.the-list li span {
+    position: absolute;
+    right: 10px;
+
+
+}
+
+.the-list li span:hover{
+    color:  rgb(199, 9, 72);
+    cursor: pointer;
+}
